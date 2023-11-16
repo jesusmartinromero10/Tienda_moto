@@ -1,0 +1,2 @@
+Instrucciones:
+Crear un archivo CSS nuevo para cada archivo JSP como styles_index.css

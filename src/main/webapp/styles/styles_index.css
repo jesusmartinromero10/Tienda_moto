@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*
+Estilos de la pagina Index.
+Aqui se definen todos los estilos de los tags que vayan dentro del main
+*/
+
+/*ESTILOS DE LA PARTE SUP DE LA PAGINA CRUD*/
+#crud_motos_sup{
+	display:flex;
+	flex-direction: row;
+	margin: 10px;
+}
+
+section{
+	background-color:var(--colorFondoOscuro);
+	padding:10px;
+	margin-right: 10px;
+	
+}
+/*ESTILOS DE LA PARTE INF DE LA PAGINA CRUD*/
+#crud_motos_inf{
+	
+	margin: 10px;
+}
+
+/*  ESTILOS DE LA TABLA   */
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilos para la cabecera de la tabla */
+.tabla_cabecera {
+    background-color: var(--principal);
+    
+}
+
+.tabla_cabecera th {
+    padding: 10px;
+    color: var(--contraste);
+}
+
+/* Estilos para filas alternas */
+tbody tr:nth-child(even) {
+    background-color:var(--principalMuyClaro);
+}
+
+tbody tr:nth-child(odd) {
+    background-color:var(--colorFondoOscuro);
+}
+
+/* Estilos para las celdas de la tabla */
+.tabla td {
+    padding: 10px;
+}
+
